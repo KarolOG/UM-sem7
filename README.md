@@ -1,2 +1,2 @@
-# UM-sem7
-Uczenie maszynowe sem7
+# Projekt UMwC
+To jest moj pierwszy projekt na GitHub.
