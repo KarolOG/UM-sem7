@@ -1,0 +1,16 @@
+name: Pierwszy workflow
+on:
+ push:
+ branches: [ "main" ]
+ pull_request:
+ branches: [ "main" ]
+jobs:
+ build:
+ runs-on: ubuntu-latest
+ steps:
+ - name: Checkout repo
+ uses: actions/checkout@v3
+ - name: Wyswietl zawartosc katalogu
+ run: ls -la
+ - name: Wyswietl wiadomosc
+ run: echo "Gratulacje! Twoj pierwszy workflow dziala!"
